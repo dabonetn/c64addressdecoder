@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "d700 decoder-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/d700 decoder-eagle-import.kicad_sym")(options "")(descr ""))
+)

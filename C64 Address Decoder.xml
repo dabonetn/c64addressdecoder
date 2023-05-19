@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\marko\Documents\kicad\Address Decoder - C64\C64 Address Decoder.kicad_sch</source>
+    <date>5/13/2023 8:28:24 AM</date>
+    <tool>Eeschema 7.0.2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>C64 Address Decoder.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>.1uf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C779984</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C779984"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64 Address Decoder.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b4cb6c7-a8b2-4320-baa2-654f3fb58949</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>IO Out</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Pin" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64 Address Decoder.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80ca4903-35ad-4a9f-87cf-4a71239f0e28</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Socket U15</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf</datasheet>
+      <libsource lib="" part="74LS139_2" description="Dual Decoder 1 of 4, Active low outputs"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64 Address Decoder.kicad_sch"/>
+      <property name="ki_description" value="Dual Decoder 1 of 4, Active low outputs"/>
+      <property name="ki_keywords" value="TTL DECOD4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>374a9c50-9468-470f-b2f7-d899731bbc67 3afbc705-6137-4d90-892e-21044a0910df 0f50bca1-76db-4152-90bb-fa7afdabc7a6</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>Main Decoder</value>
+      <footprint>Package_SO:SOIC-16_4.55x10.3mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C521174</field>
+      </fields>
+      <libsource lib="" part="74LS139_3" description="Dual Decoder 1 of 4, Active low outputs"/>
+      <property name="LCSC" value="C521174"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64 Address Decoder.kicad_sch"/>
+      <property name="ki_description" value="Dual Decoder 1 of 4, Active low outputs"/>
+      <property name="ki_keywords" value="TTL DECOD4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a1b8eb7-a3ed-46a7-8eb4-0fcef0f4576b c67052e7-a9e7-4ec7-b2d3-bd4a437a56fa 12c5108b-383c-43e1-8e60-004b3c84a564</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>ExtraDecoder</value>
+      <footprint>Package_SO:SOIC-16_4.55x10.3mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C521174</field>
+      </fields>
+      <libsource lib="74xx" part="74LS139" description="Dual Decoder 1 of 4, Active low outputs"/>
+      <property name="LCSC" value="C521174"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C64 Address Decoder.kicad_sch"/>
+      <property name="ki_description" value="Dual Decoder 1 of 4, Active low outputs"/>
+      <property name="ki_keywords" value="TTL DECOD4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62a0e891-3b81-4483-96fd-3b5d790f75b3 5f3f599e-95d0-404a-844c-9cded0d9ea5d 4cdebe98-f9f7-49ff-8f9c-1c96f80e95a7</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="74LS139_2">
+      <description>Dual Decoder 1 of 4, Active low outputs</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS139</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="A1" type="input"/>
+        <pin num="4" name="O0" type="output"/>
+        <pin num="5" name="O1" type="output"/>
+        <pin num="6" name="O2" type="output"/>
+        <pin num="7" name="O3" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="O3" type="output"/>
+        <pin num="10" name="O2" type="output"/>
+        <pin num="11" name="O1" type="output"/>
+        <pin num="12" name="O0" type="output"/>
+        <pin num="13" name="A1" type="input"/>
+        <pin num="14" name="A0" type="input"/>
+        <pin num="15" name="E" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="74LS139_3">
+      <description>Dual Decoder 1 of 4, Active low outputs</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS139</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="A1" type="input"/>
+        <pin num="4" name="O0" type="output"/>
+        <pin num="5" name="O1" type="output"/>
+        <pin num="6" name="O2" type="output"/>
+        <pin num="7" name="O3" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="O3" type="output"/>
+        <pin num="10" name="O2" type="output"/>
+        <pin num="11" name="O1" type="output"/>
+        <pin num="12" name="O0" type="output"/>
+        <pin num="13" name="A1" type="input"/>
+        <pin num="14" name="A0" type="input"/>
+        <pin num="15" name="E" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS139">
+      <description>Dual Decoder 1 of 4, Active low outputs</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS139</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="A1" type="input"/>
+        <pin num="4" name="O0" type="output"/>
+        <pin num="5" name="O1" type="output"/>
+        <pin num="6" name="O2" type="output"/>
+        <pin num="7" name="O3" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="O3" type="output"/>
+        <pin num="10" name="O2" type="output"/>
+        <pin num="11" name="O1" type="output"/>
+        <pin num="12" name="O0" type="output"/>
+        <pin num="13" name="A1" type="input"/>
+        <pin num="14" name="A0" type="input"/>
+        <pin num="15" name="E" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Pin">
+      <description>Generic connector, single row, 01x06, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="16" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="/7TO15">
+      <node ref="U2" pin="15" pinfunction="E" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="O3" pintype="output"/>
+    </net>
+    <net code="3" name="/A8">
+      <node ref="U1" pin="14" pinfunction="A0" pintype="input"/>
+      <node ref="U2" pin="14" pinfunction="A0" pintype="input"/>
+      <node ref="U3" pin="14" pinfunction="A0" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="4" name="/A9">
+      <node ref="U1" pin="13" pinfunction="A1" pintype="input"/>
+      <node ref="U2" pin="13" pinfunction="A1" pintype="input"/>
+      <node ref="U3" pin="13" pinfunction="A1" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="5" name="/A10">
+      <node ref="U1" pin="2" pinfunction="A0" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="6" name="/A11">
+      <node ref="U1" pin="3" pinfunction="A1" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="7" name="/CIA1">
+      <node ref="U1" pin="12" pinfunction="O0" pintype="output"/>
+      <node ref="U2" pin="12" pinfunction="O0" pintype="output"/>
+    </net>
+    <net code="8" name="/CIA2">
+      <node ref="U1" pin="11" pinfunction="O1" pintype="output"/>
+      <node ref="U2" pin="11" pinfunction="O1" pintype="output"/>
+    </net>
+    <net code="9" name="/COLOROUT">
+      <node ref="U1" pin="6" pinfunction="O2" pintype="output"/>
+      <node ref="U2" pin="6" pinfunction="O2" pintype="output"/>
+    </net>
+    <net code="10" name="/D100">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="O1" pintype="output"/>
+    </net>
+    <net code="11" name="/D200">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="O2" pintype="output"/>
+    </net>
+    <net code="12" name="/D300">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="O3" pintype="output"/>
+    </net>
+    <net code="13" name="/D500">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="O1" pintype="output"/>
+    </net>
+    <net code="14" name="/D600">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="O2" pintype="output"/>
+    </net>
+    <net code="15" name="/D700">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="O3" pintype="output"/>
+    </net>
+    <net code="16" name="/GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="17" name="/IO1">
+      <node ref="U1" pin="10" pinfunction="O2" pintype="output"/>
+      <node ref="U2" pin="10" pinfunction="O2" pintype="output"/>
+    </net>
+    <net code="18" name="/IO2">
+      <node ref="U1" pin="9" pinfunction="O3" pintype="output"/>
+      <node ref="U2" pin="9" pinfunction="O3" pintype="output"/>
+    </net>
+    <net code="19" name="/I{slash}O">
+      <node ref="U1" pin="1" pinfunction="E" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="E" pintype="input"/>
+    </net>
+    <net code="20" name="/SIDINT">
+      <node ref="U2" pin="5" pinfunction="O1" pintype="output"/>
+      <node ref="U3" pin="1" pinfunction="E" pintype="input"/>
+    </net>
+    <net code="21" name="/SIDOUT">
+      <node ref="U1" pin="5" pinfunction="O1" pintype="output"/>
+      <node ref="U3" pin="4" pinfunction="O0" pintype="output"/>
+    </net>
+    <net code="22" name="/VICINT">
+      <node ref="U2" pin="4" pinfunction="O0" pintype="output"/>
+      <node ref="U3" pin="15" pinfunction="E" pintype="input"/>
+    </net>
+    <net code="23" name="/VICOUT">
+      <node ref="U1" pin="4" pinfunction="O0" pintype="output"/>
+      <node ref="U3" pin="12" pinfunction="O0" pintype="output"/>
+    </net>
+    <net code="24" name="unconnected-(U1A-O3-Pad7)">
+      <node ref="U1" pin="7" pinfunction="O3" pintype="output"/>
+    </net>
+    <net code="25" name="unconnected-(U1B-E-Pad15)">
+      <node ref="U1" pin="15" pinfunction="E" pintype="input"/>
+    </net>
+  </nets>
+</export>

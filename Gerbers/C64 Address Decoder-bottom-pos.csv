@@ -1,0 +1,4 @@
+Designator,Val,Package,"Mid X","Mid Y",Rotation,Layer
+"C1",".1uf","C_0805_2012Metric",139.065000,-100.838000,0.000000,bottom
+"U2","Main Decoder","SOIC-16_4.55x10.3mm_P1.27mm",153.797000,-95.377000,180.000000,bottom
+"U3","ExtraDecoder","SOIC-16_4.55x10.3mm_P1.27mm",142.621000,-95.377000,180.000000,bottom
