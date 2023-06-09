@@ -17,6 +17,7 @@ All you need for components are pinheaders for the motherboard socket, and then 
 
 Thanks for Retro Tech Insanity (https://www.youtube.com/@retrotechinsanity3164) for the inspiration.
 
-(I have ordered unassembled boards, and will test them when they come in, and post the results.)
+I have received and tested a batch of boards and they are working.
+
 
 
